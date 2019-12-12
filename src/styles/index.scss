@@ -1,4 +1,6 @@
 @import '../styles/variables';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,13 +8,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $darkGray !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.App {
-  background: $pink;
 }
