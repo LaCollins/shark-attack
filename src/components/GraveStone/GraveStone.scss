@@ -1,0 +1,14 @@
+.graveCard {
+  background: url('./images/gravestone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95px;
+
+  .studentName {
+    margin-top: 1em;
+    color: black;
+    h6 {
+      line-height: 12px;
+    }
+  }
+}
