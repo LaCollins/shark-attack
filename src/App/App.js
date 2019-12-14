@@ -17,10 +17,16 @@ class App extends React.Component {
     this.setState({ livingStudents });
   }
 
+  seekAndDestroy = () => {
+    const randomSelect = (Math.floor(Math.random() * this.state.livingStudents.length));
+    const studentToKill = this.state.livingStudents[randomSelect].id;
+    studentData.followTheLight(studentToKill);
+  }
+
   render() {
     return (
       <div className="App">
-        <div className="row d-flex justify-content-center mt-2"><button className="btn btn-danger">SHARK ATTACK</button></div>
+        <div className="row d-flex justify-content-center mt-2"><div onClick={this.seekAndDestroy} className="btn btn-danger">SHARK ATTACK</div></div>
           <div className="row d-flex justify-content-center">
           <SharkTank students={this.state.livingStudents} />
           <Graveyard />
