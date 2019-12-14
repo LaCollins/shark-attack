@@ -1,7 +1,7 @@
 # Shark-Attack
 
 ## Description
-All our class is trapped in a shark tank. Every time a shark attacks a student dies and is buried in the graveyard.
+All our class is trapped in a shark tank. Every time a shark attack is triggered, a radom student dies and is buried in the graveyard.
 
 ## Technologies Used
 
