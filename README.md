@@ -11,7 +11,8 @@ All our class is trapped in a shark tank. Every time a shark attacks a student d
 * Webpack
 
 ## Screenshots
-![on load](https://raw.githubusercontent.com/LaCollins/pinterest/master/screenshots/mainvew.PNG)
+![on load](https://github.com/LaCollins/shark-attack/blob/master/screenshots/1.PNG)
+![after clicking shark attack](https://github.com/LaCollins/shark-attack/blob/master/screenshots/2.PNG)
 
 
 ## Instructions for how to run the project
