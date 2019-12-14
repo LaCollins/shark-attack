@@ -21,6 +21,8 @@ class App extends React.Component {
     const randomSelect = (Math.floor(Math.random() * this.state.livingStudents.length));
     const studentToKill = this.state.livingStudents[randomSelect].id;
     studentData.followTheLight(studentToKill);
+    const livingStudents = studentData.livingStudents();
+    this.setState({ livingStudents });
   }
 
   render() {
