@@ -168,8 +168,23 @@ const livingStudents = () => {
     if (student.isDead === false) {
       studentArray.push(student);
     }
-  })
+  });
   return studentArray;
 };
 
-export default { livingStudents };
+const dearlyBeloved = () => {
+  const deceasedArray = [];
+  students.forEach((student) => {
+    if (student.isDead === true) {
+      deceasedArray.push(student);
+    }
+  });
+  return deceasedArray;
+};
+
+const followTheLight = (studentId) => {
+  const studentIndex = students.findIndex((student) => student.id === studentId);
+  students[studentIndex].isDead = true;
+};
+
+export default { livingStudents, dearlyBeloved, followTheLight };
