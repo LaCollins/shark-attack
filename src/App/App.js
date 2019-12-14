@@ -19,9 +19,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App row d-flex justify-content-center">
-        <SharkTank students={this.state.livingStudents} />
-        <Graveyard />
+      <div className="App">
+        <div className="row d-flex justify-content-center mt-2"><button className="btn btn-danger">SHARK ATTACK</button></div>
+          <div className="row d-flex justify-content-center">
+          <SharkTank students={this.state.livingStudents} />
+          <Graveyard />
+        </div>
       </div>
     );
   }
