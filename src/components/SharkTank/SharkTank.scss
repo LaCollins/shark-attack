@@ -6,9 +6,15 @@
   background-image: url('./images/sharkTank.jpg');
   background-size: cover;
   color: white;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+
+  .studentContainer {
+    margin: .5em;
+  }
 
   #tankLabel {
     position: absolute;
-    bottom: 2em;
+    bottom: 0;
   }
 }

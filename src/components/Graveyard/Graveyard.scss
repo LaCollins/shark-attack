@@ -6,9 +6,10 @@
   background-image: url('./images/graveyard.jpg');
   background-size: cover;
   color: white;
+  font-family: 'Indie Flower', cursive;
 
   #graveLabel {
     position: absolute;
-    bottom: 2em;
+    bottom: 0;
   }
 }

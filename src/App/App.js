@@ -20,7 +20,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App row d-flex justify-content-center">
-        <SharkTank />
+        <SharkTank students={this.state.livingStudents} />
         <Graveyard />
       </div>
     );
